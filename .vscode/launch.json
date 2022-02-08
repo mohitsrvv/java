@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arithmetic_02",
+            "request": "launch",
+            "mainClass": "Arithmetic_02",
+            "projectName": "java _e5aecf5f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unary_01",
+            "request": "launch",
+            "mainClass": "Unary_01",
+            "projectName": "java _e5aecf5f"
+        }
+    ]
+}
