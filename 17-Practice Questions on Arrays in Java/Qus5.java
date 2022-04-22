@@ -1,8 +1,35 @@
 public class Qus5 {
     public static void main(String[] args){
-        int[] arr = {1, 2, 3, 5, 6, 8};
-        for(int i=arr.length-1; i>=0; i--){
-            System.out.print(arr[i] + " ");
+        // int[] arr = {22, 42, 22, 42, 21, 425, 434, 49};
+        // int l = arr.length;
+        // int n = Math.floorDiv(1, 2);
+        // int temp;
+
+        // for(int i=0; i<n; i++){
+        //     temp = arr[i];
+        //     arr[i] = arr[l-i-1];
+        //     arr[l-i-1] = temp;
+        // }
+        // for(int element : arr){
+        //     System.out.print(element + " ");
+        // }
+
+        int [] arr = {1, 21, 3, 4, 5, 34, 67};
+        int l = arr.length;
+        int n = Math.floorDiv(l, 2);
+        int temp;
+
+        for(int i=0; i<n; i++){
+            // Swap a[i] and a[l-1-i]
+            // a   b   temp
+            // |4| |3| ||
+            temp = arr[i];
+            arr[i] = arr[l-i-1];
+            arr[l-i-1] = temp;
+        }
+
+        for(int element: arr){
+            System.out.print(element + " ");
         }
     }
 }
